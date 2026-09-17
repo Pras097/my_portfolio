@@ -1,7 +1,8 @@
 {
-  "description": "Enhance your website's interactivity with a captivating sparkle trail that follows the mouse cursor, adding a whimsical touch for users.",
+  "title": "Prashanth Singh | Portfolio",
+  "description": "BCA student passionate about Python, AI/ML, and web development.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
