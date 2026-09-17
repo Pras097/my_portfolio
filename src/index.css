@@ -709,7 +709,7 @@ body {
   aspect-ratio: auto;
 }
 .reference-portfolio .hero-portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(20,25,40,.68), transparent 42%); }
-.reference-portfolio .hero-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: top; filter: grayscale(1) contrast(1.05); animation: portraitIn 1.1s cubic-bezier(.22,1,.36,1) both; }
+.reference-portfolio .hero-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: top; animation: portraitIn 1.1s cubic-bezier(.22,1,.36,1) both; }
 @keyframes portraitIn { from { opacity: 0; transform: scale(1.08); } to { opacity: 1; transform: scale(1); } }
 .reference-portfolio .particle { background: var(--gold) !important; box-shadow: 0 0 12px rgba(200,153,42,.65) !important; }
 

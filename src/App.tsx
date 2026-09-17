@@ -1,8 +1,8 @@
 import { useEffect, useState, useCallback } from "react";
-import profileImg from "@/imports/WhatsApp_Image_2026-08-12_at_3.15.11_PM.jpeg";
+import profileImg from "@/imports/image.jpeg";
 
 // ── Resume URL (served from /public for reliable download on GitHub Pages) ──
-const RESUME_URL = "/Prashanth_Singh_Resume.pdf";
+const RESUME_URL = "/prashanth resume.pdf";
 
 // ── Unsplash project images ──
 const PROJECT_IMAGES: Record<string, string> = {
@@ -521,7 +521,7 @@ export default function App() {
   const handleDownload = useCallback(() => {
     const a = document.createElement("a");
     a.href = RESUME_URL;
-    a.download = "Prashanth_Singh_Resume.pdf";
+    a.download = "prashanth resume.pdf";
     a.target = "_blank";
     document.body.appendChild(a);
     a.click();
