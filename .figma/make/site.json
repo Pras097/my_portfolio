@@ -1,0 +1,10 @@
+{
+  "description": "Enhance your website's interactivity with a captivating sparkle trail that follows the mouse cursor, adding a whimsical touch for users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
